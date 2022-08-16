@@ -32,7 +32,11 @@ h1, h2 {
 }
 
 #menu li {
-    float: right;
+    display: inline-block;
     list-style-type: none;
     margin-right: 30px;
 }
+
+#menu ul {
+    float: right; 
+} 
